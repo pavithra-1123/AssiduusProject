@@ -1,5 +1,6 @@
 #img
 {
-    background-image: url(../image/zo.jpg);
+    background-image: url(../public/pic/zo.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
