@@ -1,6 +1,7 @@
 import './1_Task_Css.css';
 import React from 'react';
-import zoho from './image/zoho-logo.png'
+//import zoho from './image/zoho-logo.png'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export let Home1=()=>
@@ -15,11 +16,13 @@ export let Home1=()=>
                     {/* <img src='src/picture/zo.jpg' alt='' /> */}
                     {/* <div style={{backgroundImage:URL("/picture/zo.jpg")}}></div> */}
                     <br/><br/><br/><br/><br/><br/><br/><br/>
-                    <img src={zoho} alt='' height={"400px"} width={"500px"} className='image-container' />
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+
+                    {/* <img src={zoho} alt='' height={"400px"} width={"500px"} className='image-container row justify-content-center col-4'  /> */}
                 </div>
             </div> 
         </div>
         </>
-
     );
 }
