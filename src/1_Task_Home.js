@@ -8,6 +8,8 @@ export let Home1=()=>
 {
     return(
         <>
+        <aside className='sidebar'>
+        </aside>
         <div className="conatiner bg-warning">
             <div className=" row justify-content-center">
                 <div className="" id='img'>
