@@ -1,22 +1,23 @@
-import { BrowserRouter, Route,  Routes } from 'react-router-dom';
-import { HomePage } from "../../zohoproject/src/1_Task_Navbar";
-import { ListPage1 } from "../../zohoproject/src/1_Task_ListDetails";
-import { Home1 } from '../../zohoproject/src/1_Task_Home';
+
+// import { Chart } from 'chart.js/dist';
 import {  ChartSiderBar } from './ChartPage';
-import Navbar, { ChartNavPage } from './Chart_NavPage';
+import  { ChartNavPage } from './Chart_NavPage';
+import { Chart112} from './Chart_line';
+import LineChart from './chart';
 
 
-
-
-function App() {
+export function App() {
   return(
     <>
-   
     <ChartNavPage/>
   
     <ChartSiderBar/>
+    <Chart112/>
+    
+   
+   
     </>
   );
 }
 
-export default App;
+

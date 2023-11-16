@@ -1,5 +1,5 @@
 import React from 'react';
-import './Chart_style_Page.css';
+import './Chart_style.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
@@ -14,7 +14,7 @@ export const ChartSiderBar=()=>
         <>
         <div className="sidebar col-lg-8 col-md-10 col-sm-12"  >
            <div className=''>
-           <h2 className='ms-4'>ASSIDUUS</h2>
+           <h2 className='ms-4 head'>ASSIDUUS</h2>
             <ul className='ulside'>
                 <li className='ms-3'><DashboardIcon className='me-3'></DashboardIcon>Dashboard</li>
                 <li className='ms-3'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon>Accounts</li>
