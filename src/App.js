@@ -15,6 +15,7 @@ export function App() {
     <ChartSiderBar/>
       <Routes>
         <Route path='view' exact element={<My_Chartpage/>} />
+        
       </Routes>
       </BrowserRouter>
  

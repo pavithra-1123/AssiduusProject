@@ -9,6 +9,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import { My_Chartpage } from './Chart_line';
 import { Nav } from 'react-bootstrap';
+import Chart from 'chart.js/auto'
 
 export const ChartSiderBar=()=>
 {
