@@ -7,21 +7,27 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import DescriptionIcon from '@mui/icons-material/Description';
 import PersonIcon from '@mui/icons-material/Person';
 import ContactsIcon from '@mui/icons-material/Contacts';
+import { My_Chartpage } from './Chart_line';
+import { Nav } from 'react-bootstrap';
 
 export const ChartSiderBar=()=>
 {
+    
     return(
         <>
         <div className="sidebar col-lg-8 col-md-10 col-sm-12"  >
            <div className=''>
-           <h2 className='ms-4 head'>ASSIDUUS</h2>
+          
+           <h2 className=' head'> <img className='assiduuslogo rounded-pill me-2'/>ASSIDUUS<sup className='fs-6 text-dark'>TM</sup> </h2>
             <ul className='ulside'>
-                <li className='ms-3'><DashboardIcon className='me-3'></DashboardIcon>Dashboard</li>
-                <li className='ms-3'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon>Accounts</li>
-                <li className='ms-3'><AttachMoneyIcon className='me-3'></AttachMoneyIcon>Payroll</li>
-                <li className='ms-3'><DescriptionIcon className='me-3'></DescriptionIcon> Reports</li>
-                <li className='ms-3'><PersonIcon className='me-3'></PersonIcon> Advisor</li>
-                <li className='ms-3'><ContactsIcon className='me-3'></ContactsIcon> Contacts</li>
+            
+                <li className='ms-3 input-group' ><DashboardIcon className='me-3'></DashboardIcon>
+                <Nav.Link href='/view' className=''>Dashboard</Nav.Link></li>
+                <li className='ms-3 input-group'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon><Nav.Link href='/view' className=''>Accounts</Nav.Link></li>
+                <li className='ms-3 input-group'><AttachMoneyIcon className='me-3'></AttachMoneyIcon><Nav.Link href='/view' className=''>Payroll</Nav.Link></li>
+                <li className='ms-3 input-group'><DescriptionIcon className='me-3'></DescriptionIcon><Nav.Link href='/view' className=''> Reports</Nav.Link> </li>
+                <li className='ms-3 input-group'><PersonIcon className='me-3'></PersonIcon> <Nav.Link href='/view' className=''> Advisor</Nav.Link> </li>
+                <li className='ms-3 input-group'><ContactsIcon className='me-3'></ContactsIcon> <Nav.Link href='/view' className=''> Contacts</Nav.Link> </li>
             </ul>
 
            </div>

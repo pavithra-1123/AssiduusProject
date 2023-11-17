@@ -16,12 +16,9 @@ export const ChartNavPage=()=>
 {
     return(
         <>
-                    <Navbar expand='lg' bg='light'>
+            <Navbar expand='lg' bg='light'  >
                         <NavbarToggle aria-controls='#mynavbar'></NavbarToggle>
                         <NavbarCollapse id='mynavbar'>
-                        
-                        {/* <Nav.Link href='/view' >Vision</Nav.Link>
-                        <Nav.Link href='/update'>Update</Nav.Link> */}
                         
                         <div className='col-5 justify-content-end'>
                         </div>
@@ -48,7 +45,6 @@ export const ChartNavPage=()=>
                         </div>
                         </NavbarCollapse>
                     </Navbar>
-                 
         </>
     );
 }
