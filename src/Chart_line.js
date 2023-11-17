@@ -1,12 +1,9 @@
 
-import { Divider, Input } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Table from 'react-bootstrap/Table';
-import React, { useRef, useState } from 'react';
-import { DropdownButton , Dropdown, Button} from 'react-bootstrap';
+import React, { useRef} from 'react';
+import {  Dropdown} from 'react-bootstrap';
 import { Bar } from 'react-chartjs-2';
 import { Line } from 'react-chartjs-2';
-import Chart from 'chart.js/auto';
 import {Chart as ChartJS,
   CategoryScale,
   LinearScale,
