@@ -6,7 +6,7 @@ import { manageOptions, monthList } from "../utils/chartUtils";
 import { makeStyles } from "@mui/styles";
 
 
-const useStyle= makeStyles (() => ({
+const useStyle = makeStyles (() => ({
   graphTitle: {
     fontSize: 14,
     color: "black",
