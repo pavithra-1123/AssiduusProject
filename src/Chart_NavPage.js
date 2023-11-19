@@ -29,7 +29,7 @@ export const ChartNavPage=()=>
                         <Dropdown.Toggle variant="light" id="dropdown-basic" className='ms-4 me-5'>
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Dashboa</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Dashboard</Dropdown.Item>
                             <Dropdown.Item href="#/action-2">Accounts</Dropdown.Item>
                             <Dropdown.Item href="#/action-3">Payroll</Dropdown.Item>
                             <Dropdown.Item href="#/action-3"> Reports</Dropdown.Item>
