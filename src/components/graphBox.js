@@ -3,10 +3,10 @@ import { Box, Button, Divider, Grid, Stack, Typography } from "@mui/material";
 import React, { useRef} from 'react';
 import { SelectBox } from "./selectBox";
 import { manageOptions, monthList } from "../utils/chartUtils";
-// import { makeStyles } from "@mui/styles";
-import { makeStyles } from '@mui/system/styled';
+import { makeStyles } from "@mui/styles";
 
-const useStyle = makeStyles(() => ({
+
+const useStyle= makeStyles (() => ({
   graphTitle: {
     fontSize: 14,
     color: "black",
