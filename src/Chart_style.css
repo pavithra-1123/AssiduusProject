@@ -1,22 +1,24 @@
  /* sidebarr implementation */
-.sidebar{
+ .sidebar{
     
-    max-width: 270px;
+    max-width: 300px;
     height: 100%;
-    top : 0;
+    /* top : 0;
     left: 0;
-    position:fixed;
+    position:fixed; */
     background: white;
     color: #150f0f;
-    padding: 20px;
-    padding-top: 20px;
+    padding: 12px 20px 20px;
     transition: background-color 0.3s;
 
 }
 
+
 .head{
     margin-bottom: 60px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: green;
     
     font-weight: bolder;
@@ -50,7 +52,7 @@ li{
 
 .sear {
     
-    margin-right: 500px;
+    margin-left : 2000px;
 
 }
 
@@ -78,11 +80,11 @@ li{
 }
 .assiduuslogo
 {
-    background-image: url(../src/image/Assiduus.webp);
+    background-image: url(../src/image/Assiduus.jpg);
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background-size: 100px;
+    background-size: 43px;
     background-position-x: center;
     background-position-y: center;
 
@@ -100,4 +102,10 @@ li{
     padding: 8px;
   }
   
- 
+@media only screen and (max-width: auto){
+  .media{
+    display: flex;
+    height: auto;
+    
+  }
+}

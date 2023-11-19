@@ -16,10 +16,10 @@ export const ChartSiderBar=()=>
     
     return(
         <>
-        <div className="sidebar col-lg-8 col-md-10 col-sm-12"  >
+        <div className="sidebar col-lg-12 col-md-12 col-sm-12"  >
            <div className=''>
           
-           <h2 className=' head'> <img className='assiduuslogo rounded-pill me-2'/>ASSIDUUS<sup className='fs-6 text-dark'>TM</sup> </h2>
+           <h2 className=' head'> <img className='assiduuslogo rounded-pill me-2 '/>ASSIDUUS<sup className='fs-6 text-dark'>TM</sup> </h2>
             <ul className='ulside'>
             
                 <li className='ms-3 input-group' ><DashboardIcon className='me-3'></DashboardIcon>

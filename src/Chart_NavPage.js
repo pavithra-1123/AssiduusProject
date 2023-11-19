@@ -17,16 +17,17 @@ export const ChartNavPage=()=>
     return(
         <>
             <Navbar expand='lg' bg='light'  >
-                        <NavbarToggle aria-controls='#mynavbar'></NavbarToggle>
-                        <NavbarCollapse id='mynavbar'>
+                        <NavbarToggle aria-controls='#mynavbar' className='float-end ms-5'></NavbarToggle>
+                        <NavbarCollapse id='mynavbar' className='float-end text-success ms-5' >
                         
-                        <div className='col-5 justify-content-end'>
-                        </div>
+                        {/* <div className='col-5 justify-content-end'>
+                        </div> */}
                         
-                        <div className="search-bar-container col-7  justify-content-end float-end ">
+                        <div className="search-bar-container col-12  justify-content-end float-end " >
                             <input type="search" placeholder="Search..." className="search-input me-1" />
                             <SearchIcon className='ms-2 fa-10x' style={{height:'35px',width:'35px'}}></SearchIcon>
                             {/* <Face3Icon className='ms-4 rounded-pill '></Face3Icon> */}
+                            <NotificationsIcon className='ms-2 fa-10x' style={{height:'35px',width:'35px',color:'black'}}></NotificationsIcon>
                             <img  className='Logo rounded-pill ms-4'/>
                             {/* <ArrowDropDownIcon className='ms-4 me-5'></ArrowDropDownIcon> */}
                             <Dropdown>
