@@ -28,7 +28,9 @@ import {
 } from "@mui/material";
 import { SelectBox } from "./components/selectBox";
 import { manageOptions, monthList } from "./utils/chartUtils";
-import { makeStyles } from "@mui/styles";
+// import { makeStyles } from "@mui/styles";
+import { makeStyles } from '@mui/system/styled';
+
 import { GraphBox } from "./components/graphBox";
 
 ChartJS.register(
