@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useRef } from "react";
-import { Dropdown } from "react-bootstrap";
+import React from "react";
 import { Bar } from "react-chartjs-2";
 import { Line } from "react-chartjs-2";
 import {
@@ -15,21 +14,19 @@ import {
 } from "chart.js";
 import {
   Box,
-  Divider,
+
   Grid,
-  Stack,
   Table,
   TableBody,
   TableCell,
   TableContainer,
   TableHead,
   TableRow,
-  Typography,
+
   
 } from "@mui/material";
-import { SelectBox } from "./components/selectBox";
 import { manageOptions, monthList } from "./utils/chartUtils";
-import { makeStyles } from "@mui/styles";
+// import { makeStyles } from "@mui/styles";
 // import { makeStyles } from '@mui/system/styled';
 
 import { GraphBox } from "./components/graphBox";
@@ -44,15 +41,14 @@ ChartJS.register(
   Legend
 );
 
-const useStyle = makeStyles(() => ({
-  graphTitle: {
-    fontSize: 14,
-    color: "black",
-  },
-}));
+// const useStyle = makeStyles(() => ({
+//   graphTitle: {
+//     fontSize: 14,
+//     color: "black",
+//   },
+// }));
 
 export const My_Chartpage = () => {
-  const classes = useStyle();
   const [chartData, setChartData] = React.useState({
     accountYear: manageOptions?.[0]?.value,
     monthList: monthList?.[0]?.value,
@@ -148,10 +144,7 @@ export const My_Chartpage = () => {
     ],
   };
 
-  const inputref = useRef(null);
-  const handleImageClick = () => {
-    inputref.current.click();
-  };
+ 
 
   const tableData = [
     {
