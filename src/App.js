@@ -21,7 +21,6 @@ export function App() {
       <BrowserRouter>
       <Routes>
         <Route path='view' exact element={<My_Chartpage/>} />
-        
       </Routes>
       </BrowserRouter>
       </div>
